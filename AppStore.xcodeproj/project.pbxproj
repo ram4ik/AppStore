@@ -13,6 +13,12 @@
 		95A4E14B2449900C00F34F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A4E14A2449900C00F34F91 /* Assets.xcassets */; };
 		95A4E14E2449900C00F34F91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A4E14D2449900C00F34F91 /* Preview Assets.xcassets */; };
 		95A4E1512449900C00F34F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A4E14F2449900C00F34F91 /* LaunchScreen.storyboard */; };
+		95A4E165244991D700F34F91 /* TodayPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A4E164244991D700F34F91 /* TodayPage.swift */; };
+		95A4E167244991E500F34F91 /* GamesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A4E166244991E500F34F91 /* GamesPage.swift */; };
+		95A4E169244991F200F34F91 /* AppsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A4E168244991F200F34F91 /* AppsPage.swift */; };
+		95A4E16B2449920600F34F91 /* ArcadePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A4E16A2449920600F34F91 /* ArcadePage.swift */; };
+		95A4E16D2449921100F34F91 /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A4E16C2449921100F34F91 /* SearchPage.swift */; };
+		95A4E16F2449922000F34F91 /* TabBarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A4E16E2449922000F34F91 /* TabBarPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		95A4E14D2449900C00F34F91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95A4E1502449900C00F34F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95A4E1522449900C00F34F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A4E164244991D700F34F91 /* TodayPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayPage.swift; sourceTree = "<group>"; };
+		95A4E166244991E500F34F91 /* GamesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesPage.swift; sourceTree = "<group>"; };
+		95A4E168244991F200F34F91 /* AppsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsPage.swift; sourceTree = "<group>"; };
+		95A4E16A2449920600F34F91 /* ArcadePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadePage.swift; sourceTree = "<group>"; };
+		95A4E16C2449921100F34F91 /* SearchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPage.swift; sourceTree = "<group>"; };
+		95A4E16E2449922000F34F91 /* TabBarPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				95A4E1442449900B00F34F91 /* AppDelegate.swift */,
 				95A4E1462449900B00F34F91 /* SceneDelegate.swift */,
 				95A4E1482449900B00F34F91 /* ContentView.swift */,
+				95A4E164244991D700F34F91 /* TodayPage.swift */,
+				95A4E166244991E500F34F91 /* GamesPage.swift */,
+				95A4E168244991F200F34F91 /* AppsPage.swift */,
+				95A4E16A2449920600F34F91 /* ArcadePage.swift */,
+				95A4E16C2449921100F34F91 /* SearchPage.swift */,
+				95A4E16E2449922000F34F91 /* TabBarPage.swift */,
 				95A4E14A2449900C00F34F91 /* Assets.xcassets */,
 				95A4E14F2449900C00F34F91 /* LaunchScreen.storyboard */,
 				95A4E1522449900C00F34F91 /* Info.plist */,
@@ -146,8 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A4E165244991D700F34F91 /* TodayPage.swift in Sources */,
 				95A4E1452449900B00F34F91 /* AppDelegate.swift in Sources */,
+				95A4E167244991E500F34F91 /* GamesPage.swift in Sources */,
 				95A4E1472449900B00F34F91 /* SceneDelegate.swift in Sources */,
+				95A4E169244991F200F34F91 /* AppsPage.swift in Sources */,
+				95A4E16B2449920600F34F91 /* ArcadePage.swift in Sources */,
+				95A4E16F2449922000F34F91 /* TabBarPage.swift in Sources */,
+				95A4E16D2449921100F34F91 /* SearchPage.swift in Sources */,
 				95A4E1492449900B00F34F91 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
